@@ -1,0 +1,104 @@
+/* Style the tab content */
+.payAdvantageOverlayTabContent {
+    /* display: none; */
+    padding: 6px 0;
+    border-top: none;
+}
+
+.payAdvantageOverlayTabContent {
+    animation: fadeEffect 1s; /* Fading effect takes 1 second */
+}
+
+/* Go from zero to full opacity */
+@keyframes fadeEffect {
+    from {opacity: 0;}
+    to {opacity: 1;}
+}
+
+.PayAdvantageError {
+    color: crimson
+}
+
+.table-reset {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+.table-reset td, .table-reset th, .table-reset tr {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+.pa-label {
+    display: block;
+    width: 100%;
+}
+
+/* BPAY */
+.BPayBlock {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.BPayBlock .BPayLogoVert {    
+    border: none;
+    line-height: 42px;
+    width: 29px;
+    display: inline-block;
+    background: transparent url("../images/bpay.svg") no-repeat 0px / 29px 42px;
+    vertical-align: top;
+}
+
+.BPayBlock .BPayDetails {
+    border: solid 2px #003399;
+    font-size: 12px;
+    background-color: #FFF;
+    display: inline-block;
+    color: #003399;
+    padding: 2px 8px;
+    line-height: 17px;
+}
+
+/* Payment Receipt */
+.success-tick-image {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.pay-advantage-widget input {
+    width: 100%;
+    max-width: 400px;
+}
+
+.pay-advantage-credit-card-capture-wc-iframe-container {
+    text-align: center;
+    padding: 16px;
+}
+
+iframe.pay-advantage-credit-card-capture {
+    margin-bottom: 0;
+}
+
+.pay-advantage-w-100 {
+    width: 100%;
+}
+
+.pay-advantage-hidden {
+    display: none !important;
+}
+
+.pay-advantage-text-right {
+    text-align: right;
+}

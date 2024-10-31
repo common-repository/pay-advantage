@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="86px" height="86px" viewBox="0 0 86 86" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.6 (67491) - http://www.bohemiancoding.com/sketch -->
+    <title>icon/success_tick</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M43,0 C19.25325,0 0,19.2505625 0,43 C0,66.7494375 19.25325,86 43,86 C66.74675,86 86,66.7494375 86,43 C86,19.2505625 66.74675,0 43,0 M43,5.375 C63.7475,5.375 80.625,22.2525 80.625,43 C80.625,63.7475 63.7475,80.625 43,80.625 C22.2525,80.625 5.375,63.7475 5.375,43 C5.375,22.2525 22.2525,5.375 43,5.375 M31.601791,64.5 L17.2,49.2699628 L20.8971918,45.3601458 L31.601791,56.6803658 L60.8028082,25.8 L64.5,29.7098171 L31.601791,64.5 Z" id="path-1"></path>
+    </defs>
+    <g id="Random" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Artboard" transform="translate(-413.000000, -179.000000)">
+            <g id="icon/success_tick" transform="translate(413.000000, 179.000000)">
+                <g id="colour/red">
+                    <mask id="mask-2" fill="white">
+                        <use xlink:href="#path-1"></use>
+                    </mask>
+                    <use id="Mask" fill="#878F97" xlink:href="#path-1"></use>
+                    <g id="colour/green" mask="url(#mask-2)" fill="#39E68E">
+                        <rect id="Rectangle-65" x="0" y="0" width="86" height="86"></rect>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
